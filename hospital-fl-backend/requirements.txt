@@ -1,0 +1,10 @@
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+torch>=2.0.0
+pandas>=2.0.0
+flwr>=1.6.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+cryptography>=41.0.0
+python-multipart>=0.0.6
+tenseal>=0.3.0
