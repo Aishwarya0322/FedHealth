@@ -5,8 +5,6 @@ A privacy-preserving federated learning system designed for multi-hospital colla
 Built a secure web application accessible only to authorized hospital administrators. Administrators can enter patient symptoms, which are analyzed using the federated learning model. The system predicts the disease risk level, generates a detailed diagnostic report with recommendations, and automatically forwards the report to the appropriate specialist doctor for further review and treatment. This approach improves collaborative healthcare intelligence while maintaining strict patient privacy and regulatory compliance
 
 
----
-
 ## 🔒 Privacy Notice
 
 > **Some files and directories have been intentionally excluded from this repository to protect patient privacy and institutional confidentiality.**
