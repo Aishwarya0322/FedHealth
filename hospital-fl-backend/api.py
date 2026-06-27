@@ -211,6 +211,7 @@ async def predict_and_save(patient: PatientData, background_tasks: BackgroundTas
         specialist = get_specialist(patient.hospital_id, disease)
 
         # Save record
+        
         csv_path = f"data_{patient.hospital_id.replace(' ', '_')}_{disease}.csv"
         new_row = {k: v for k, v in patient.fields.items() if not k.startswith('_')}
         new_row["result"] = prediction
